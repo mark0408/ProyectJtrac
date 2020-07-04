@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<package name="semana 02" namespace="/" extends="struts-default,json-default">
+
+	
+	<action name="listarReporte2" class="action.SpacesAction" method="listarReporte2">
+	<result name="ok" type="json"></result>
+	</action>
+	
+	<action name="llenarspaces" class="action.SpacesAction" method="llenarspaces">
+	<result name="ok" type="json"> </result>
+	</action>
+	
+	<action name="llenarCombo" class="action.SpacesAction" method="llenarCombo">
+	<result name="ok" type="json"> </result>
+	</action>
+	
+	<action name="CalcularValor" class="action.SpacesAction" method="CalcularValor">
+	<result name="ok" type="json"> </result>
+	</action>
+	
+	
+	<action name="llenarTipo" class="action.SpacesAction" method="llenarTipo">
+	<result name="ok" type="json"> </result>
+	</action>
+
+	<action name="listarProyect" class="action.SpacesAction" method="listarProyect">
+	<result name="ok" type="json"></result>
+	</action>
+	
+		<action name="listarReporte3" class="action.ReporteAction" method="listarReporte3">
+	<result name="ok" type="json"></result>
+	</action>
+	
+	
+
+	</package>
+</struts>

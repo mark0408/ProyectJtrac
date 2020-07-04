@@ -1,0 +1,174 @@
+body {
+	background: rgb(255, 255, 255); font-family: Arial; font-size: 80%;
+}
+table.jtrac th {
+	background: rgb(204, 204, 204); padding-right: 0.2em; padding-left: 0.2em;
+}
+table.jtrac td.label {
+	background: rgb(204, 204, 204); padding-right: 0.2em; padding-left: 0.2em;
+}
+tr.center td {
+	text-align: center;
+}
+.label {
+	text-align: right; font-weight: bold;
+}
+a {
+	color: rgb(0, 0, 217);
+}
+a:hover {
+	color: black;
+}
+img {
+	border: currentColor; border-image: none; vertical-align: middle;
+}
+.multiselect {
+	background: rgb(255, 255, 255); border: 1px solid rgb(204, 204, 204); border-image: none; text-align: left; overflow: auto;
+}
+.scrollable {
+	height: 10em;
+}
+.error-input {
+	border: 1px solid rgb(204, 34, 0); border-image: none;
+}
+div.error-input {
+	float: left;
+}
+div.error-input select {
+	border: currentColor; border-image: none;
+}
+.error {
+	color: rgb(204, 34, 0); font-weight: bold; margin-bottom: 1em;
+}
+.info {
+	color: rgb(0, 0, 217); font-weight: bold;
+}
+.heading {
+	color: rgb(0, 0, 217); font-weight: bold; margin-bottom: 1em;
+}
+.alt {
+	background: rgb(225, 236, 254);
+}
+.selected {
+	background: rgb(195, 217, 255);
+}
+table.jtrac .selected {
+	background: rgb(195, 217, 255);
+}
+.bdr-bottom {
+	border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid;
+}
+tr.bdr-bottom td {
+	border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.nav-header {
+	background: rgb(204, 204, 204); padding: 0.1em;
+}
+.nav-header table {
+	font-size: 95%;
+}
+.jtrac-list {
+	font-size: 95%;
+}
+.jtrac-view {
+	font-size: 95%;
+}
+.jtrac-view {
+	border: 1px solid rgb(204, 204, 204); border-image: none;
+}
+.nav-header img {
+	margin-top: 1px; margin-right: 0.3em;
+}
+img.nav-link {
+	margin-top: 1px; margin-right: 0.3em;
+}
+.nav-header img {
+	vertical-align: top; float: left; display: block;
+}
+a img.nav-link {
+	vertical-align: top; float: left; display: block;
+}
+.nav-header td {
+	padding: 0px 10px; text-align: right; font-weight: bold; background-color: rgb(225, 236, 254);
+}
+.nav-table td {
+	padding: 0px 10px; text-align: right; font-weight: bold; background-color: rgb(225, 236, 254);
+}
+.nav-table td.icon {
+	padding: 0px; width: 4em; text-align: center;
+}
+.nav-table td a {
+	width: 100%; display: block;
+}
+.bdr-collapse {
+	border-collapse: collapse;
+}
+.bdr-collapse td {
+	padding: 0px;
+}
+.page-links {
+	font-weight: bold;
+}
+.nav-header td {
+	padding-left: 0.7em;
+}
+.space-below {
+	padding-bottom: 0.5em;
+}
+tr.sortable th {
+	background-position: right; background-repeat: no-repeat;
+}
+tr.sortable th.order-none {
+	background-image: url("arrow_off.gif");
+}
+tr.sortable th.order-up {
+	background-image: url("arrow_up.gif"); background-color: rgb(195, 217, 255);
+}
+tr.sortable th.order-down {
+	background-image: url("arrow_down.gif"); background-color: rgb(195, 217, 255);
+}
+tr.sortable a {
+	color: black;
+}
+tr.sortable a:hover {
+	color: rgb(0, 0, 217);
+} 	
+ul {
+	list-style-image: url("error.gif");
+}
+li.feedbackPanelERROR {
+	padding-left: 0.4em;
+}
+.menu-option div {
+	padding-right: 1em; padding-left: 1em; font-weight: bold; margin-bottom: 1.5em; background-color: rgb(225, 236, 254);
+}
+table.dataTable {     
+	     border: 1px rgb(195, 217, 255) solid;
+        
+   }
+
+table.dataTable th{  
+ border: 1px rgb(195, 217, 255) solid;
+     width: 1%;
+ 
+           text-align: center;
+   }
+
+.buscar{
+	display: block;
+}
+button {
+  background: none!important;
+  border: none;
+  padding: 0!important;
+  /*optional*/
+  font-family: arial, sans-serif;
+  /*input has OS specific font-family*/
+  color: #069;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.imgSearch{
+	float: left;
+	margin-top: 3px;
+}
