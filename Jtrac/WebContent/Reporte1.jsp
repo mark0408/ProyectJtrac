@@ -236,7 +236,7 @@ $.extend( true, $.fn.dataTable.defaults, {
             "remove": "Borrar",
             "copy": "Copiar",
             "csv": "fichero CSV",
-            "excel": "Excel",
+            "excel": "Exportar a Excel",
             "pdf": "documento PDF",
             "print": "Imprimir",
             "colvis": "Visibilidad columnas",
@@ -365,6 +365,7 @@ function (){
 	        		   
 	        	 });
 	        	 $("#idTableProyecto_filter").append('<img src="Resultado_archivos/search.gif" alt="" class="imgSearch"/>');
+	        	 $(".dt-buttons").append('<img src="Resultado_archivos/excel.gif" alt="" class="imgExcel"/>');
 	        	
 	        },error: function (response) {
 	        	console.log(response)
